@@ -41,7 +41,7 @@ p {
   display: -ms-flexbox;
   display: flex;
   width: 100%;
-  height: 150px;
+  height: 200px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -webkit-flex-direction: column;
@@ -55,7 +55,7 @@ p {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
-  background-color: hsla(48, 47%, 85%, .81);
+  background-color: #f5f2ce;
   color: #000;
 }
 
@@ -226,7 +226,8 @@ p {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  background-color: #293175;
+  background-color: #d702b2;
+  box-shadow: 0 0 38px 5px hsla(0, 0%, 44%, .84);
 }
 
 .column-1.involved {
@@ -234,11 +235,13 @@ p {
 }
 
 .column-1.donate {
-  background-color: #92910e;
+  background-color: #01803b;
+  box-shadow: 0 0 38px 5px hsla(0, 0%, 44%, .84);
 }
 
 .column-1.events {
-  background-color: #fcb028;
+  background-color: #005cd7;
+  box-shadow: 0 0 38px 5px hsla(0, 0%, 44%, .84);
 }
 
 .heading-1 {
@@ -279,7 +282,7 @@ p {
   margin-right: 5px;
   margin-left: 5px;
   padding: 10px 20px;
-  background-color: #9f449e;
+  background-color: #d702b2;
   font-family: Georgia, Times, 'Times New Roman', serif;
   color: #fff;
   font-size: 19px;
@@ -290,7 +293,7 @@ p {
   margin-right: 5px;
   margin-left: 5px;
   padding: 10px 20px;
-  background-color: #293175;
+  background-color: #008aa4;
   font-family: Georgia, Times, 'Times New Roman', serif;
   color: #fff;
   font-size: 19px;
@@ -301,7 +304,7 @@ p {
   margin-right: 5px;
   margin-left: 5px;
   padding: 10px 20px;
-  background-color: #fcb028;
+  background-color: #005cd7;
   font-family: Georgia, Times, 'Times New Roman', serif;
   color: #fff;
   font-size: 19px;
@@ -312,7 +315,7 @@ p {
   margin-right: 5px;
   margin-left: 5px;
   padding: 10px 20px;
-  background-color: #92910e;
+  background-color: #01803b;
   font-family: Georgia, Times, 'Times New Roman', serif;
   color: #fff;
   font-size: 19px;
@@ -323,7 +326,7 @@ p {
   margin-right: 0px;
   margin-left: 5px;
   padding: 10px 20px;
-  background-color: #11807f;
+  background-color: #dc7c01;
   font-family: Georgia, Times, 'Times New Roman', serif;
   color: #fff;
   font-size: 19px;
@@ -547,6 +550,7 @@ p {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
+  height: 150px;
   margin-top: 0px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -656,7 +660,7 @@ p {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  margin: 0px 0px 26px;
+  margin: 0px 0px 69px;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
   -webkit-flex-direction: row;
@@ -780,6 +784,10 @@ p {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
+  margin-right: -45px;
+  margin-left: 1px;
+  padding-right: 0px;
+  padding-left: 0px;
   -webkit-box-pack: end;
   -webkit-justify-content: flex-end;
   -ms-flex-pack: end;
@@ -788,6 +796,7 @@ p {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
+  color: #000;
 }
 
 .footer-link {
@@ -941,7 +950,7 @@ p {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  width: 250px;
+  width: 300px;
   margin-left: 185px;
   padding-right: 0px;
   padding-left: 0px;
@@ -975,8 +984,8 @@ p {
 
 .social {
   display: block;
-  margin-right: 8px;
-  margin-left: 8px;
+  margin-right: 16px;
+  margin-left: 16px;
   -webkit-box-flex: 0;
   -webkit-flex: 0 0 auto;
   -ms-flex: 0 0 auto;
@@ -997,11 +1006,11 @@ p {
   margin-left: 28px;
   padding-right: 0px;
   padding-left: 0px;
-  letter-spacing: 1px;
 }
 
 .text-span-2 {
-  color: #f5ff00;
+  color: #000;
+  font-weight: 700;
 }
 
 .div-block-2 {
@@ -1082,14 +1091,14 @@ p {
 .slide {
   position: relative;
   bottom: 0px;
-  background-image: url('../images/Screen-Shot-2018-03-03-at-4.37.50-PM.jpg');
+  background-image: url('../images/website-pictures-1.jpg');
   background-position: 50% 50%;
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 .slide-2 {
-  background-image: url('../images/website-pictures-1.jpg');
+  background-image: url('../images/slide3.jpg');
   background-position: 50% 50%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -1099,18 +1108,18 @@ p {
   top: -77px;
   width: 100%;
   height: 70vh;
-  margin-top: 0px;
+  margin-top: 102px;
   font-family: Georgia, Times, 'Times New Roman', serif;
   color: #000;
   font-weight: 700;
 }
 
 .headingheader {
-  margin-top: 8px;
+  margin-top: 37px;
   margin-bottom: 0px;
   float: left;
   clear: both;
-  font-family: Georgia, Times, 'Times New Roman', serif;
+  font-family: 'Lucida calligraphy', sans-serif;
   color: #000;
   font-weight: 700;
 }
@@ -1152,6 +1161,7 @@ p {
 }
 
 .heading-9 {
+  display: none;
   padding-top: 6px;
   padding-bottom: 6px;
   font-family: Georgia, Times, 'Times New Roman', serif;
@@ -1171,7 +1181,7 @@ p {
   float: right;
   clear: none;
   border-radius: 15px;
-  background-color: red;
+  background-color: #f4250f;
   font-family: Georgia, Times, 'Times New Roman', serif;
   color: #fff;
   font-size: 25px;
@@ -1184,12 +1194,12 @@ p {
 }
 
 .body-2 {
-  background-image: -webkit-linear-gradient(270deg, #ebe4c8, #ebe4c8);
-  background-image: linear-gradient(180deg, #ebe4c8, #ebe4c8);
+  background-image: -webkit-linear-gradient(270deg, #f5f2ce, #f5f2ce);
+  background-image: linear-gradient(180deg, #f5f2ce, #f5f2ce);
 }
 
 .slide-3 {
-  background-image: url('../images/amruta-mahakalkar-144811-unsplash.jpg');
+  background-image: url('../images/caregiver-pic-1.jpg');
   background-position: 50% 50%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -1223,6 +1233,16 @@ p {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
+}
+
+.image-5 {
+  margin-left: -8px;
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+.image-6 {
+  padding-left: 0px;
 }
 
 @media (max-width: 991px) {
@@ -1436,12 +1456,24 @@ p {
     padding-left: 0px;
     float: right;
   }
+  .logo {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 41px 0px 17px -23px;
+    padding-left: 0px;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
   .hero-section {
     height: 150px;
     background-size: cover;
   }
   .column-1.mission {
-    margin: 0px 43px;
+    margin: 64px 43px 0px;
     padding-top: 0px;
     padding-bottom: 0px;
   }
@@ -1536,20 +1568,42 @@ p {
   }
   .image {
     max-width: 40%;
+    margin: -12px 0px 0px;
+    padding-top: 0px;
+    padding-bottom: 1px;
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 auto;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
   }
   .heading-7 {
     font-size: 15px;
   }
   .div-block {
     width: 100%;
+    margin-top: 0px;
     margin-left: 0px;
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+  .social {
+    margin-right: 10px;
+    margin-left: 10px;
+    padding-top: 0px;
+    padding-bottom: 0px;
   }
   .text-block {
-    margin-top: 8px;
+    margin-top: 45px;
+  }
+  .slide {
+    top: 0px;
+    padding-bottom: 0px;
   }
   .slider {
-    height: 30vh;
-    margin-top: 29px;
+    height: 40vh;
+    margin-top: 79px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
   }
   .headingheader {
     display: none;
@@ -1561,7 +1615,7 @@ p {
   }
   .containerslider {
     height: 250px;
-    margin-top: 0px;
+    margin-top: 25px;
   }
   .banner {
     top: 2px;
@@ -1585,5 +1639,14 @@ p {
     padding-bottom: 0px;
     font-size: 13px;
   }
+  .icon-4 {
+    margin-top: 24px;
+  }
 }
 
+@font-face {
+  font-family: 'Lucida calligraphy';
+  src: url('../fonts/Lucida-Calligraphy-Italic.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}

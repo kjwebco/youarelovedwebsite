@@ -276,8 +276,8 @@ p {
 }
 
 .nav-link.home {
-  margin-right: 25px;
-  margin-left: 0px;
+  margin-right: 5px;
+  margin-left: 5px;
   padding: 10px 20px;
   background-color: #9f449e;
   font-family: Georgia, Times, 'Times New Roman', serif;
@@ -287,7 +287,8 @@ p {
 }
 
 .nav-link.about {
-  margin-right: 25px;
+  margin-right: 5px;
+  margin-left: 5px;
   padding: 10px 20px;
   background-color: #293175;
   font-family: Georgia, Times, 'Times New Roman', serif;
@@ -297,7 +298,8 @@ p {
 }
 
 .nav-link.blog {
-  margin-right: 25px;
+  margin-right: 5px;
+  margin-left: 5px;
   padding: 10px 20px;
   background-color: #fcb028;
   font-family: Georgia, Times, 'Times New Roman', serif;
@@ -307,7 +309,8 @@ p {
 }
 
 .nav-link.envolved {
-  margin-right: 25px;
+  margin-right: 5px;
+  margin-left: 5px;
   padding: 10px 20px;
   background-color: #92910e;
   font-family: Georgia, Times, 'Times New Roman', serif;
@@ -318,6 +321,7 @@ p {
 
 .nav-link.contact {
   margin-right: 0px;
+  margin-left: 5px;
   padding: 10px 20px;
   background-color: #11807f;
   font-family: Georgia, Times, 'Times New Roman', serif;
@@ -1427,9 +1431,50 @@ p {
   .nav {
     height: 60px;
   }
+  .nav-menu {
+    margin-top: 0px;
+    padding-left: 0px;
+    float: right;
+  }
   .hero-section {
     height: 150px;
     background-size: cover;
+  }
+  .column-1.mission {
+    margin: 0px 43px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+  .column-1.donate {
+    margin-right: 43px;
+    margin-left: 43px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+  .column-1.events {
+    margin-right: 43px;
+    margin-left: 43px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+  .nav-link.home {
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+  .nav-link.about {
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+  .nav-link.blog {
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+  .nav-link.envolved {
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+  .nav-link.contact {
+    margin-left: 0px;
   }
   .logos-section {
     padding-top: 0px;
@@ -1503,13 +1548,20 @@ p {
     margin-top: 8px;
   }
   .slider {
-    height: 45vh;
+    height: 30vh;
+    margin-top: 29px;
   }
   .headingheader {
     display: none;
   }
   .div-block-4 {
+    display: none;
     width: 100%;
+    margin-top: 2px;
+  }
+  .containerslider {
+    height: 250px;
+    margin-top: 0px;
   }
   .banner {
     top: 2px;
@@ -1524,11 +1576,14 @@ p {
     text-align: center;
   }
   .donatebutton {
+    display: block;
     width: 100px;
-    margin-top: 89px;
+    margin-top: 82px;
     margin-bottom: 0px;
-    margin-left: 21px;
-    font-size: 16px;
+    margin-left: 16px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    font-size: 13px;
   }
 }
 

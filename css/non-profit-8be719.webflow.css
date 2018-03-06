@@ -1159,7 +1159,11 @@ p {
   position: relative;
   top: -80px;
   right: -217px;
-  width: 175px;
+  width: 160px;
+  margin-top: 22px;
+  margin-bottom: 0px;
+  padding-top: 4px;
+  padding-bottom: 4px;
   float: right;
   clear: none;
   border-radius: 15px;
@@ -1168,6 +1172,7 @@ p {
   color: #fff;
   font-size: 25px;
   font-weight: 700;
+  letter-spacing: 2.3px;
 }
 
 .donatebutton:hover {

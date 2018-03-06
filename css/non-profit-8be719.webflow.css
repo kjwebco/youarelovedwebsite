@@ -388,13 +388,15 @@ p {
 }
 
 .class-section {
+  position: static;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   margin-top: 0px;
   padding-top: 0px;
-  padding-bottom: 70px;
+  padding-bottom: 0px;
+  clear: none;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -webkit-flex-direction: column;
@@ -421,8 +423,10 @@ p {
 }
 
 .wrap-2.b {
-  position: relative;
-  margin-top: 80px;
+  position: static;
+  display: block;
+  width: 90%;
+  margin-top: 0px;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
   -webkit-flex-direction: row;
@@ -468,6 +472,11 @@ p {
   padding: 50px 20px;
 }
 
+.left-1.contact {
+  float: left;
+  clear: both;
+}
+
 .right-1 {
   display: -webkit-box;
   display: -webkit-flex;
@@ -492,6 +501,7 @@ p {
 }
 
 .right-1.contact {
+  width: 50%;
   margin-top: -1px;
 }
 
@@ -1015,6 +1025,21 @@ p {
 }
 
 .div-block-3 {
+  display: block;
+  margin-top: 31px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   text-align: center;
 }
 
@@ -1149,10 +1174,6 @@ p {
   box-shadow: 4px 4px 50px -11px #000;
 }
 
-.body {
-  height: 100%;
-}
-
 .body-2 {
   background-image: -webkit-linear-gradient(270deg, #ebe4c8, #ebe4c8);
   background-image: linear-gradient(180deg, #ebe4c8, #ebe4c8);
@@ -1170,6 +1191,29 @@ p {
   background-position: 50% 50%;
   background-size: 300px;
   background-repeat: no-repeat;
+}
+
+.div-block-5 {
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+}
+
+.contactcontainer {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 0px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 @media (max-width: 991px) {

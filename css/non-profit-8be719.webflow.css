@@ -434,6 +434,7 @@ p {
   display: block;
   width: 90%;
   margin-top: 0px;
+  margin-bottom: 0px;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
   -webkit-flex-direction: row;
@@ -546,11 +547,14 @@ p {
 }
 
 .footer-top {
+  position: static;
+  left: 0px;
+  right: 0px;
+  bottom: 50px;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  height: 150px;
   margin-top: 0px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -587,6 +591,10 @@ p {
 }
 
 .footer-bottom {
+  position: static;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -761,7 +769,7 @@ p {
 
 .paragraph-2.b {
   margin-top: 1px;
-  letter-spacing: 1px;
+  color: #000;
 }
 
 .caption-2 {
@@ -1022,6 +1030,10 @@ p {
   padding-right: 0px;
 }
 
+.text-field {
+  box-shadow: inset 0 0 11px 1px hsla(0, 0%, 41%, .61);
+}
+
 .field-label {
   font-family: Georgia, Times, 'Times New Roman', serif;
   font-size: 16px;
@@ -1213,7 +1225,7 @@ p {
 }
 
 .div-block-5 {
-  position: absolute;
+  position: static;
   left: 0px;
   right: 0px;
   bottom: 0px;
@@ -1225,6 +1237,7 @@ p {
   display: -ms-flexbox;
   display: flex;
   margin-top: 0px;
+  margin-bottom: 0px;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
@@ -1243,6 +1256,24 @@ p {
 
 .image-6 {
   padding-left: 0px;
+}
+
+.text-field-2 {
+  box-shadow: inset 0 0 11px 1px hsla(0, 0%, 41%, .61);
+}
+
+.textarea {
+  box-shadow: inset 0 0 11px 1px hsla(0, 0%, 41%, .61);
+}
+
+.section-4 {
+  margin-top: 10px;
+  margin-bottom: 19px;
+  padding-bottom: 0px;
+}
+
+.section-5 {
+  padding-bottom: 76px;
 }
 
 html.w-mod-js *[data-ix="scale"] {
@@ -1467,7 +1498,7 @@ html.w-mod-js *[data-ix="scale"] {
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
-    margin: 41px 0px 17px -23px;
+    margin: 16px 0px 17px -23px;
     padding-left: 0px;
     -webkit-box-pack: center;
     -webkit-justify-content: center;

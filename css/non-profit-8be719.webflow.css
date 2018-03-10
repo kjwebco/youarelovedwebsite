@@ -1618,6 +1618,9 @@ html.w-mod-js *[data-ix="scale"] {
     -ms-flex: 0 auto;
     flex: 0 auto;
   }
+  .heading-2.b {
+    width: 275px;
+  }
   .footer-link-wrap {
     display: -webkit-box;
     display: -webkit-flex;
@@ -1654,11 +1657,20 @@ html.w-mod-js *[data-ix="scale"] {
   .div-block {
     margin-left: 0px;
   }
+  .text-field {
+    width: 75%;
+  }
   .headingheader {
     font-size: 25px;
   }
   .donatebutton {
     right: -100px;
+  }
+  .text-field-2 {
+    width: 75%;
+  }
+  .textarea {
+    width: 75%;
   }
   .aboutusheading {
     left: -15px;
@@ -1973,9 +1985,24 @@ html.w-mod-js *[data-ix="scale"] {
   .nav-link.contact {
     margin-left: 0px;
   }
+  .wrap-2.b {
+    margin-top: 12px;
+    margin-bottom: 68px;
+  }
   .logos-section {
     padding-top: 0px;
     padding-bottom: 0px;
+  }
+  .left-1.contact {
+    width: 40%;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    float: left;
+    clear: none;
+  }
+  .right-1.contact {
+    padding-right: 0px;
+    padding-left: 0px;
   }
   .footer-top-wrap {
     width: 100%;
@@ -2019,6 +2046,16 @@ html.w-mod-js *[data-ix="scale"] {
     width: 100%;
     font-size: 20px;
   }
+  .heading-2.b {
+    width: 200px;
+    margin-top: 0px;
+    float: none;
+    font-size: 18px;
+  }
+  .paragraph-2.b {
+    margin-top: 0px;
+    text-align: left;
+  }
   .footer-link-wrap {
     display: -webkit-box;
     display: -webkit-flex;
@@ -2056,7 +2093,7 @@ html.w-mod-js *[data-ix="scale"] {
     flex: 0 0 auto;
   }
   .image.homelogo2 {
-    width: 70px;
+    width: 60px;
     margin-top: 0px;
     margin-left: 30px;
     padding-bottom: 0px;
@@ -2099,6 +2136,21 @@ html.w-mod-js *[data-ix="scale"] {
     -ms-flex-align: center;
     align-items: center;
   }
+  .form {
+    width: 150px;
+  }
+  .text-field {
+    width: 100%;
+    float: none;
+  }
+  .field-label {
+    float: none;
+  }
+  .heading-8 {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    font-size: 15px;
+  }
   .slide {
     top: 0px;
     padding-bottom: 0px;
@@ -2113,9 +2165,11 @@ html.w-mod-js *[data-ix="scale"] {
     display: none;
   }
   .div-block-4 {
-    display: none;
+    left: -179px;
+    top: 58px;
+    display: block;
     width: 100%;
-    margin-top: 2px;
+    margin-top: 0px;
   }
   .containerslider {
     height: 250px;
@@ -2145,6 +2199,19 @@ html.w-mod-js *[data-ix="scale"] {
   }
   .icon-4 {
     margin-top: 24px;
+  }
+  .text-field-2 {
+    width: 100%;
+  }
+  .textarea {
+    width: 100%;
+    float: none;
+  }
+  .section-6 {
+    -webkit-box-align: stretch;
+    -webkit-align-items: stretch;
+    -ms-flex-align: stretch;
+    align-items: stretch;
   }
   .aboutusheading {
     width: 125px;

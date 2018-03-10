@@ -95,6 +95,7 @@ p {
 .logo {
   position: static;
   display: block;
+  margin-left: 6px;
   -webkit-box-align: center;
   -webkit-align-items: center;
   -ms-flex-align: center;
@@ -632,7 +633,7 @@ p {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
-  background-color: #111;
+  background-color: #000;
 }
 
 .footer-bottom-wrap {
@@ -811,7 +812,8 @@ p {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  margin-right: -45px;
+  width: 33%;
+  margin-right: 0px;
   margin-left: 1px;
   padding-right: 0px;
   padding-left: 0px;
@@ -981,7 +983,7 @@ p {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  width: 300px;
+  width: 33%;
   margin-left: 185px;
   padding-right: 0px;
   padding-left: 0px;
@@ -1505,6 +1507,15 @@ p {
   text-decoration: none;
 }
 
+.div-block-12 {
+  background-color: #000;
+}
+
+.div-block-13 {
+  position: static;
+  margin-top: 0px;
+}
+
 html.w-mod-js *[data-ix="scale"] {
   -webkit-transform: scale(1, 1);
   -ms-transform: scale(1, 1);
@@ -1720,6 +1731,9 @@ html.w-mod-js *[data-ix="scale"] {
   .nav-link.home {
     padding: 5px;
     font-size: 14px;
+  }
+  .nav-link.about {
+    padding: 5px;
   }
   .nav-link.about.w--current {
     padding: 5px;
@@ -2010,6 +2024,7 @@ html.w-mod-js *[data-ix="scale"] {
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
+    width: 300px;
     margin-right: 0px;
     -webkit-box-pack: center;
     -webkit-justify-content: center;
@@ -2068,6 +2083,8 @@ html.w-mod-js *[data-ix="scale"] {
     display: -ms-flexbox;
     display: flex;
     margin-top: 5px;
+    margin-right: 0px;
+    margin-left: 0px;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -webkit-flex-direction: column;

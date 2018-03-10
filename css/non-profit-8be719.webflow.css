@@ -42,6 +42,7 @@ p {
   display: flex;
   width: 100%;
   height: 200px;
+  margin-bottom: 12px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -webkit-flex-direction: column;
@@ -191,7 +192,7 @@ p {
   text-align: center;
 }
 
-.column-1 {
+.column-3 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -221,7 +222,7 @@ p {
   text-align: center;
 }
 
-.column-1.mission {
+.column-3.mission {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -230,21 +231,25 @@ p {
   box-shadow: 0 0 38px 5px hsla(0, 0%, 44%, .84);
 }
 
-.column-1.involved {
+.column-3.mission.home {
+  box-shadow: 0 0 50px 3px hsla(0, 0%, 44%, .84);
+}
+
+.column-3.involved {
   background-color: #d75bcb;
 }
 
-.column-1.donate {
+.column-3.donate {
   background-color: #01803b;
   box-shadow: 0 0 38px 5px hsla(0, 0%, 44%, .84);
 }
 
-.column-1.events {
+.column-3.events {
   background-color: #005cd7;
   box-shadow: 0 0 38px 5px hsla(0, 0%, 44%, .84);
 }
 
-.column-1.about-us {
+.column-3.about-us {
   background-color: transparent;
   background-image: none;
   box-shadow: none;
@@ -561,7 +566,7 @@ p {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  margin-top: 0px;
+  margin-top: 15px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -webkit-flex-direction: column;
@@ -669,14 +674,13 @@ p {
   align-items: flex-start;
 }
 
-.column-wrap-1 {
+.column-wrap-home {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  width: 100%;
-  height: 300px;
-  margin: 0px 0px 69px;
+  height: 400px;
+  margin: 0px;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
   -webkit-flex-direction: row;
@@ -697,8 +701,7 @@ p {
   -webkit-flex: 0 auto;
   -ms-flex: 0 auto;
   flex: 0 auto;
-  background-image: -webkit-linear-gradient(270deg, #d6d3ad, #d6d3ad);
-  background-image: linear-gradient(180deg, #d6d3ad, #d6d3ad);
+  background-image: none;
 }
 
 .heading-3 {
@@ -905,6 +908,10 @@ p {
   -ms-flex: 0 0 auto;
   flex: 0 0 auto;
   background-color: transparent;
+}
+
+.image.homelogo2 {
+  width: 200px;
 }
 
 .bold-text {
@@ -1218,6 +1225,7 @@ p {
 .body-2 {
   background-image: -webkit-linear-gradient(270deg, #f5f2ce, #f5f2ce);
   background-image: linear-gradient(180deg, #f5f2ce, #f5f2ce);
+  color: #000;
 }
 
 .slide-3 {
@@ -1332,12 +1340,16 @@ p {
 .aboutusheading {
   position: relative;
   left: -23px;
-  top: 17px;
+  top: 52px;
   width: 300px;
   margin-top: 0px;
   margin-bottom: 0px;
   background-image: -webkit-linear-gradient(270deg, #fcf600, #fcf600);
   background-image: linear-gradient(180deg, #fcf600, #fcf600);
+  box-shadow: 0 0 50px -8px #585858;
+  font-family: Georgia, Times, 'Times New Roman', serif;
+  font-size: 36px;
+  font-weight: 700;
 }
 
 .container {
@@ -1353,7 +1365,7 @@ p {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
-  background-color: #d6d3ad;
+  background-color: #e2e0bf;
 }
 
 .container-2 {
@@ -1370,7 +1382,87 @@ p {
 
 .div-block-8 {
   position: static;
-  background-color: #d6d3ad;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #e2e0bf;
+  background-image: -webkit-linear-gradient(270deg, #f5f2ce, #f5f2ce);
+  background-image: linear-gradient(180deg, #f5f2ce, #f5f2ce);
+}
+
+.div-block-10 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-left: 0px;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #e2e0bf;
+}
+
+.image-7 {
+  width: 800px;
+  margin-top: 35px;
+}
+
+.paragraph-5 {
+  padding-right: 0px;
+  padding-left: 15px;
+}
+
+.paragraph-6 {
+  padding-right: 15px;
+  padding-left: 0px;
+}
+
+.container-3 {
+  margin-top: 32px;
+  box-shadow: 0 0 20px -4px #313131;
+}
+
+.image-8 {
+  background-image: url('../images/flowermin.jpg');
+  background-position: 0px 0px;
+  background-size: contain;
+}
+
+.section-7 {
+  height: 400px;
+}
+
+.div-block-11 {
+  height: 500px;
+  background-image: url('../images/flowermin.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.columnwrapaboutus {
+  height: 400px;
+  background-image: -webkit-linear-gradient(270deg, #f5f2ce, #f5f2ce);
+  background-image: linear-gradient(180deg, #f5f2ce, #f5f2ce);
+}
+
+.row {
+  margin-top: 0px;
+  padding-top: 93px;
 }
 
 html.w-mod-js *[data-ix="scale"] {
@@ -1382,6 +1474,9 @@ html.w-mod-js *[data-ix="scale"] {
 @media (max-width: 991px) {
   .nav-container {
     width: 100%;
+  }
+  .nav-menu {
+    margin-right: 5px;
   }
   .logo {
     -webkit-box-flex: 0;
@@ -1397,6 +1492,47 @@ html.w-mod-js *[data-ix="scale"] {
     background-repeat: no-repeat;
     background-attachment: scroll;
   }
+  .column-3.about-us {
+    position: relative;
+    display: block;
+    width: 45%;
+    float: none;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: start;
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-box-align: baseline;
+    -webkit-align-items: baseline;
+    -ms-flex-align: baseline;
+    align-items: baseline;
+  }
+  .column-3.about-us {
+    display: block;
+    float: right;
+  }
+  .paragraph-3 {
+    float: none;
+  }
+  .nav-link.home {
+    font-size: 16px;
+  }
+  .nav-link.about.w--current {
+    font-size: 16px;
+  }
+  .nav-link.blog {
+    font-size: 16px;
+  }
+  .nav-link.envolved {
+    font-size: 16px;
+  }
+  .nav-link.contact {
+    font-size: 16px;
+  }
   .logos-section {
     padding-top: 0px;
     padding-bottom: 0px;
@@ -1407,12 +1543,15 @@ html.w-mod-js *[data-ix="scale"] {
     -ms-flex-pack: center;
     justify-content: center;
   }
-  .column-wrap-1 {
+  .column-wrap-home {
+    display: block;
+    height: 100%;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -webkit-flex-direction: column;
     -ms-flex-direction: column;
     flex-direction: column;
+    text-align: left;
   }
   .column-wrap-2 {
     -webkit-flex-wrap: wrap;
@@ -1454,6 +1593,10 @@ html.w-mod-js *[data-ix="scale"] {
     max-width: 75%;
     margin-left: 10px;
   }
+  .image.homelogo2 {
+    width: 175px;
+    max-width: 100%;
+  }
   .heading-7 {
     font-size: 30px;
   }
@@ -1466,11 +1609,52 @@ html.w-mod-js *[data-ix="scale"] {
   .donatebutton {
     right: -100px;
   }
+  .aboutusheading {
+    left: -15px;
+    top: 29px;
+    width: 225px;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    font-size: 28px;
+    font-weight: 700;
+  }
+  .div-block-8 {
+    padding-bottom: 46px;
+  }
+  .column-4 {
+    display: block;
+    width: 45%;
+    float: none;
+  }
+  .div-block-10 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    box-shadow: 0 0 7px -25px #5d5b5b;
+  }
+  .image-7 {
+    width: 675px;
+    box-shadow: 0 0 5px 3px #555252;
+  }
 }
 
 @media (max-width: 767px) {
   .nav {
     height: 100px;
+  }
+  .nav-menu {
+    margin-top: 8px;
   }
   .hero-section {
     height: 300px;
@@ -1492,6 +1676,26 @@ html.w-mod-js *[data-ix="scale"] {
   }
   .wrap-1 {
     text-align: center;
+  }
+  .nav-link.home {
+    padding: 5px;
+    font-size: 14px;
+  }
+  .nav-link.about.w--current {
+    padding: 5px;
+    font-size: 14px;
+  }
+  .nav-link.blog {
+    padding: 5px;
+    font-size: 14px;
+  }
+  .nav-link.envolved {
+    padding: 5px;
+    font-size: 14px;
+  }
+  .nav-link.contact {
+    padding: 5px;
+    font-size: 14px;
   }
   .hero-left {
     width: 100%;
@@ -1533,6 +1737,12 @@ html.w-mod-js *[data-ix="scale"] {
     padding-left: 0px;
     text-align: center;
   }
+  .column-wrap-home {
+    margin-right: 0px;
+    margin-left: 0px;
+    padding-right: 10px;
+    padding-left: 10px;
+  }
   .heading-3 {
     text-align: center;
   }
@@ -1551,6 +1761,13 @@ html.w-mod-js *[data-ix="scale"] {
   .caption-1 {
     font-size: 20px;
   }
+  .image.homelogo2 {
+    width: 100px;
+    max-width: 100%;
+    margin-top: 5px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+  }
   .heading-7 {
     font-size: 20px;
   }
@@ -1559,6 +1776,7 @@ html.w-mod-js *[data-ix="scale"] {
     font-size: 12px;
   }
   .headingheader {
+    margin-top: 45px;
     float: none;
     clear: none;
     font-size: 20px;
@@ -1573,17 +1791,76 @@ html.w-mod-js *[data-ix="scale"] {
     left: 2px;
   }
   .donatebutton {
+    top: -125px;
+    right: -292px;
     width: 100px;
-    margin-top: 88px;
+    margin-top: 75px;
     margin-left: 91px;
     float: none;
     font-size: 15px;
+  }
+  .aboutusheading {
+    left: -6px;
+    width: 175px;
+    font-size: 20px;
+    font-weight: 700;
+  }
+  .container {
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+  .div-block-8 {
+    margin-right: 0px;
+    margin-left: 0px;
+    background-color: transparent;
+    background-image: -webkit-linear-gradient(270deg, #f5f2ce, #f5f2ce);
+    background-image: linear-gradient(180deg, #f5f2ce, #f5f2ce);
+  }
+  .div-block-9 {
+    margin-right: 10px;
+    margin-left: 10px;
+    box-shadow: 0 0 12px 3px #5a5959;
+  }
+  .div-block-10 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    margin-right: 10px;
+    margin-left: 10px;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background-color: #e2e0bf;
+    box-shadow: none;
+  }
+  .image-7 {
+    width: 500px;
+  }
+  .paragraph-5 {
+    padding-right: 15px;
+  }
+  .paragraph-6 {
+    padding-left: 15px;
+  }
+  .container-3 {
+    box-shadow: none;
+  }
+  .row {
+    padding-top: 28px;
+    background-color: #f5f2ce;
   }
 }
 
 @media (max-width: 479px) {
   .nav {
     height: 60px;
+    margin-bottom: 0px;
   }
   .nav-menu {
     margin-top: 0px;
@@ -1595,7 +1872,7 @@ html.w-mod-js *[data-ix="scale"] {
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
-    margin: 16px 0px 17px -23px;
+    margin: 17px 0px 0px;
     padding-left: 0px;
     -webkit-box-pack: center;
     -webkit-justify-content: center;
@@ -1606,18 +1883,18 @@ html.w-mod-js *[data-ix="scale"] {
     height: 150px;
     background-size: cover;
   }
-  .column-1.mission {
+  .column-3.mission {
     margin: 64px 43px 0px;
     padding-top: 0px;
     padding-bottom: 0px;
   }
-  .column-1.donate {
+  .column-3.donate {
     margin-right: 43px;
     margin-left: 43px;
     padding-top: 0px;
     padding-bottom: 0px;
   }
-  .column-1.events {
+  .column-3.events {
     margin-right: 43px;
     margin-left: 43px;
     padding-top: 0px;
@@ -1647,7 +1924,8 @@ html.w-mod-js *[data-ix="scale"] {
     padding-bottom: 0px;
   }
   .footer-top-wrap {
-    padding-bottom: 33px;
+    width: 100%;
+    padding-bottom: 0px;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -webkit-flex-direction: column;
@@ -1661,6 +1939,17 @@ html.w-mod-js *[data-ix="scale"] {
     -webkit-align-items: center;
     -ms-flex-align: center;
     align-items: center;
+  }
+  .footer-bottom {
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+  .footer-bottom-wrap {
+    width: 100%;
+    text-align: center;
+  }
+  .column-wrap-home {
+    height: 100%;
   }
   .column-wrap-2 {
     -webkit-box-orient: vertical;
@@ -1681,6 +1970,7 @@ html.w-mod-js *[data-ix="scale"] {
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
+    margin-right: 0px;
     -webkit-box-pack: center;
     -webkit-justify-content: center;
     -ms-flex-pack: center;
@@ -1710,6 +2000,12 @@ html.w-mod-js *[data-ix="scale"] {
     -ms-flex: 0 0 auto;
     flex: 0 0 auto;
   }
+  .image.homelogo2 {
+    width: 70px;
+    margin-top: 0px;
+    margin-left: 30px;
+    padding-bottom: 0px;
+  }
   .heading-7 {
     font-size: 15px;
   }
@@ -1727,7 +2023,24 @@ html.w-mod-js *[data-ix="scale"] {
     padding-bottom: 0px;
   }
   .text-block {
-    margin-top: 45px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: 5px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
   }
   .slide {
     top: 0px;
@@ -1775,6 +2088,48 @@ html.w-mod-js *[data-ix="scale"] {
   }
   .icon-4 {
     margin-top: 24px;
+  }
+  .aboutusheading {
+    width: 125px;
+    font-size: 16px;
+  }
+  .div-block-8 {
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    font-size: 12px;
+  }
+  .div-block-10 {
+    margin-top: 8px;
+  }
+  .image-7 {
+    width: 275px;
+    margin-top: 13px;
+    padding-top: 0px;
+    box-shadow: 0 0 7px 2px #868686;
+  }
+  .menu-button {
+    background-color: #f5f2ce;
+  }
+  .menu-button.w--open {
+    background-color: #f5f2ce;
+  }
+  .paragraph-6 {
+    padding-left: 15px;
+  }
+  .container-3 {
+    margin-top: 8px;
+    box-shadow: none;
+  }
+  .section-7 {
+    height: 150px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  .div-block-11 {
+    height: 180px;
+    margin-top: 12px;
+    background-position: 50% 21%;
+    background-size: cover;
+    background-attachment: scroll;
   }
 }
 

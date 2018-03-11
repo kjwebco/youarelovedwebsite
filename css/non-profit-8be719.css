@@ -1521,10 +1521,10 @@ p {
 }
 
 .div-block-11 {
-  height: 500px;
+  height: 600px;
   background-image: url('../images/flowermin.jpg');
-  background-position: 50% 70%;
-  background-size: contain;
+  background-position: 50% 50%;
+  background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
@@ -1957,7 +1957,7 @@ html.w-mod-js *[data-ix="scale"] {
     justify-content: center;
   }
   .footer-top.home {
-    margin-top: 89px;
+    margin-top: 0px;
   }
   .footer-bottom {
     padding-top: 0px;
@@ -2116,10 +2116,14 @@ html.w-mod-js *[data-ix="scale"] {
     font-family: Georgia, Times, 'Times New Roman', serif;
   }
   .container-3 {
+    position: relative;
+    top: -62px;
     margin-top: 0px;
   }
   .div-block-11 {
-    background-size: contain;
+    height: 400px;
+    background-position: 50% -1%;
+    background-size: cover;
   }
   .div-block-11.getinvolved {
     background-size: contain;
@@ -2293,6 +2297,12 @@ html.w-mod-js *[data-ix="scale"] {
     padding-left: 0px;
     text-align: center;
   }
+  .footer-top.home {
+    margin-top: 29px;
+  }
+  .section-3 {
+    display: block;
+  }
   .column-wrap-home {
     margin-right: 0px;
     margin-left: 0px;
@@ -2407,9 +2417,12 @@ html.w-mod-js *[data-ix="scale"] {
     margin-bottom: 43px;
   }
   .aboutusheading {
-    left: -6px;
-    display: none;
-    width: 300px;
+    left: -181px;
+    top: 17px;
+    display: block;
+    width: 200px;
+    padding-top: 0px;
+    padding-bottom: 0px;
     font-size: 20px;
     font-weight: 700;
   }
@@ -2434,10 +2447,9 @@ html.w-mod-js *[data-ix="scale"] {
     background-image: linear-gradient(180deg, #f5f2ce, #f5f2ce);
   }
   .div-block-9 {
-    margin-top: -143px;
-    margin-right: 10px;
-    margin-left: 10px;
-    box-shadow: none;
+    height: 700px;
+    margin: 0px 10px -61px;
+    box-shadow: 0 0 24px 1px hsla(0, 0%, 42%, .59);
   }
   .div-block-10 {
     display: -webkit-box;
@@ -2470,7 +2482,8 @@ html.w-mod-js *[data-ix="scale"] {
     box-shadow: none;
   }
   .div-block-11 {
-    background-position: 50% 30%;
+    background-position: 50% 50%;
+    background-size: cover;
   }
   .div-block-11.getinvolved {
     height: 400px;
@@ -2520,6 +2533,10 @@ html.w-mod-js *[data-ix="scale"] {
   }
   .column-11 {
     margin-top: 0px;
+  }
+  .div-block-27 {
+    height: 700px;
+    margin-bottom: -69px;
   }
 }
 
@@ -2614,7 +2631,7 @@ html.w-mod-js *[data-ix="scale"] {
     padding-left: 0px;
   }
   .footer-top.home {
-    margin-top: 28px;
+    margin-top: 0px;
   }
   .footer-top-wrap {
     width: 100%;
@@ -2901,8 +2918,10 @@ html.w-mod-js *[data-ix="scale"] {
     text-align: left;
   }
   .div-block-9 {
+    height: 975px;
     margin-top: 0px;
-    box-shadow: none;
+    margin-bottom: 0px;
+    box-shadow: 0 0 12px 1px #5a5959;
   }
   .div-block-10 {
     margin-top: 8px;
@@ -2922,11 +2941,17 @@ html.w-mod-js *[data-ix="scale"] {
     background-color: #f5f2ce;
   }
   .paragraph-5 {
-    font-size: 14px;
+    margin-bottom: 8px;
+    padding-right: 0px;
+    padding-left: 0px;
+    font-size: 13px;
   }
   .paragraph-6 {
     display: block;
-    padding-left: 15px;
+    margin-bottom: 0px;
+    padding-right: 0px;
+    padding-left: 0px;
+    font-size: 13px;
   }
   .container-3 {
     margin-top: 8px;
@@ -2948,6 +2973,10 @@ html.w-mod-js *[data-ix="scale"] {
   }
   .div-block-11.getinvolved {
     background-position: 0px 22px;
+  }
+  .row {
+    padding-right: 5px;
+    padding-left: 5px;
   }
   .column-7 {
     padding-right: 0px;

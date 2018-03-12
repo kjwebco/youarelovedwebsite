@@ -2423,14 +2423,15 @@ html.w-mod-js *[data-ix="scale"] {
     padding-bottom: 0px;
   }
   .headingheader {
-    margin-top: 45px;
+    margin-top: 4px;
     float: none;
     clear: none;
     font-size: 18px;
     line-height: 25px;
   }
   .div-block-4 {
-    margin-top: 6px;
+    height: 50px;
+    margin-top: 47px;
     margin-left: 0px;
   }
   .banner {

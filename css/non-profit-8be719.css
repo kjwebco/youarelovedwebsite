@@ -73,7 +73,9 @@ p {
 }
 
 .nav-menu {
-  position: static;
+  position: relative;
+  top: 81px;
+  right: 21px;
   display: block;
   margin-top: 5px;
   float: right;
@@ -93,9 +95,12 @@ p {
 }
 
 .logo {
-  position: static;
+  position: relative;
+  top: 83px;
+  right: -4px;
   display: block;
-  margin-left: 30px;
+  margin-top: 0px;
+  margin-left: 0px;
   -webkit-box-align: center;
   -webkit-align-items: center;
   -ms-flex-align: center;
@@ -105,6 +110,19 @@ p {
   -ms-flex: 0 0 auto;
   flex: 0 0 auto;
   color: transparent;
+}
+
+.logo.footer-bottom {
+  margin-left: 11px;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+}
+
+.logo.home-full {
+  top: 81px;
+  right: -5px;
 }
 
 .hero-section {
@@ -1215,12 +1233,13 @@ p {
 }
 
 .div-block-4 {
-  position: absolute;
-  top: 0px;
+  position: relative;
+  left: 345px;
+  top: -110px;
   bottom: 0px;
-  width: 450px;
-  margin-top: 64px;
-  margin-left: 33px;
+  width: 175px;
+  margin-top: 0px;
+  margin-left: 0px;
   text-align: center;
 }
 
@@ -1422,7 +1441,7 @@ p {
 .aboutusheading {
   position: relative;
   left: -23px;
-  top: 26px;
+  top: 65px;
   display: block;
   width: 375px;
   margin-top: 0px;
@@ -1513,12 +1532,14 @@ p {
 }
 
 .paragraph-5 {
+  padding-top: 16px;
   padding-right: 0px;
   padding-left: 15px;
   font-family: Georgia, Times, 'Times New Roman', serif;
 }
 
 .paragraph-6 {
+  padding-top: 17px;
   padding-right: 15px;
   padding-left: 0px;
   font-family: Georgia, Times, 'Times New Roman', serif;
@@ -1881,8 +1902,8 @@ p {
 
 .link-block-7 {
   position: relative;
-  top: -85px;
-  right: -359px;
+  top: -11px;
+  right: -12px;
 }
 
 .container-5 {
@@ -1917,6 +1938,18 @@ p {
   color: #000;
 }
 
+.div-block-28 {
+  position: relative;
+  top: -38px;
+}
+
+.slide-5 {
+  background-image: url('../images/caregiver-pic-1.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 html.w-mod-js *[data-ix="scale"] {
   -webkit-transform: scale(1, 1);
   -ms-transform: scale(1, 1);
@@ -1928,14 +1961,33 @@ html.w-mod-js *[data-ix="scale"] {
     width: 100%;
   }
   .nav-menu {
-    margin-top: 17px;
+    top: 48px;
+    right: 9px;
+    margin-top: 9px;
     margin-right: 5px;
   }
   .logo {
+    position: static;
+    top: 0px;
+    margin-top: 0px;
     -webkit-box-flex: 0;
     -webkit-flex: 0 0 auto;
     -ms-flex: 0 0 auto;
     flex: 0 0 auto;
+  }
+  .logo.tablet {
+    top: 48px;
+  }
+  .logo.tabletheader {
+    top: 54px;
+    display: inline-block;
+  }
+  .logo.header {
+    top: 44px;
+  }
+  .logo.t {
+    position: relative;
+    top: 44px;
   }
   .hero-section {
     display: none;
@@ -2040,8 +2092,9 @@ html.w-mod-js *[data-ix="scale"] {
     flex: 0 auto;
   }
   .heading-2.b {
-    width: 275px;
+    width: 250px;
     box-shadow: 0 0 18px 1px rgba(0, 0, 0, .37);
+    font-size: 27px;
   }
   .footer-link-wrap {
     display: -webkit-box;
@@ -2073,6 +2126,9 @@ html.w-mod-js *[data-ix="scale"] {
     width: 175px;
     max-width: 100%;
   }
+  .image.imagefoot {
+    position: relative;
+  }
   .heading-7 {
     font-size: 30px;
   }
@@ -2091,9 +2147,16 @@ html.w-mod-js *[data-ix="scale"] {
     margin-top: 75px;
   }
   .headingheader {
-    margin-left: 55px;
+    margin-top: 0px;
+    margin-left: 0px;
     padding-right: 0px;
     font-size: 20px;
+    line-height: 28px;
+  }
+  .div-block-4 {
+    left: 274px;
+    top: -101px;
+    right: 0px;
   }
   .donatebutton {
     right: -100px;
@@ -2163,14 +2226,18 @@ html.w-mod-js *[data-ix="scale"] {
     position: relative;
     top: -62px;
     margin-top: 0px;
+    box-shadow: none;
   }
   .div-block-11 {
-    height: 400px;
+    height: 380px;
     background-position: 50% -1%;
     background-size: cover;
   }
   .div-block-11.getinvolved {
     background-size: contain;
+  }
+  .row {
+    padding-top: 41px;
   }
   .div-block-16 {
     width: 225px;
@@ -2231,7 +2298,12 @@ html.w-mod-js *[data-ix="scale"] {
     padding-left: 40px;
   }
   .link-block-7 {
-    right: -253px;
+    top: 0px;
+    right: 0px;
+  }
+  .div-block-28 {
+    top: -27px;
+    text-align: center;
   }
 }
 
@@ -2240,11 +2312,21 @@ html.w-mod-js *[data-ix="scale"] {
     height: 100px;
   }
   .nav-menu {
+    top: 61px;
     margin-top: 8px;
   }
   .logo {
+    left: -1px;
+    top: 65px;
+    right: 0px;
     margin-left: 8px;
     padding-left: 0px;
+  }
+  .logo.tablet.land {
+    top: 66px;
+  }
+  .logo.t.l {
+    top: 67px;
   }
   .hero-section {
     height: 300px;
@@ -2363,6 +2445,8 @@ html.w-mod-js *[data-ix="scale"] {
     top: -39px;
     right: 19px;
     width: 200px;
+    font-size: 20px;
+    text-align: left;
   }
   .paragraph-2.b {
     float: left;
@@ -2430,6 +2514,10 @@ html.w-mod-js *[data-ix="scale"] {
     line-height: 25px;
   }
   .div-block-4 {
+    left: 221px;
+    top: -83px;
+    right: 0px;
+    width: 150px;
     height: 50px;
     margin-top: 47px;
     margin-left: 0px;
@@ -2462,15 +2550,18 @@ html.w-mod-js *[data-ix="scale"] {
     margin-bottom: 43px;
   }
   .aboutusheading {
+    position: static;
     left: -178px;
     top: 17px;
     right: 0px;
     display: block;
-    width: 200px;
+    width: 100%;
     padding-top: 0px;
     padding-bottom: 0px;
+    padding-left: 0px;
     font-size: 20px;
     font-weight: 700;
+    text-align: center;
   }
   .container {
     padding-right: 10px;
@@ -2496,6 +2587,11 @@ html.w-mod-js *[data-ix="scale"] {
     height: 1100px;
     margin: 0px 10px -61px;
     box-shadow: 0 0 24px 1px hsla(0, 0%, 42%, .59);
+  }
+  .div-block-9.aboutus {
+    height: auto;
+    margin-bottom: 0px;
+    box-shadow: none;
   }
   .div-block-10 {
     display: -webkit-box;
@@ -2525,12 +2621,14 @@ html.w-mod-js *[data-ix="scale"] {
     padding-left: 15px;
   }
   .container-3 {
+    position: static;
     display: block;
     box-shadow: none;
   }
   .div-block-11 {
     background-position: 50% 50%;
     background-size: cover;
+    background-attachment: scroll;
   }
   .div-block-11.getinvolved {
     height: 400px;
@@ -2574,8 +2672,8 @@ html.w-mod-js *[data-ix="scale"] {
     margin-bottom: 0px;
   }
   .link-block-7 {
-    top: -46px;
-    right: -216px;
+    top: 0px;
+    right: 0px;
     text-decoration: none;
   }
   .column-11 {
@@ -2584,6 +2682,9 @@ html.w-mod-js *[data-ix="scale"] {
   .div-block-27 {
     height: 700px;
     margin-bottom: -69px;
+  }
+  .div-block-28 {
+    top: 11px;
   }
 }
 
@@ -2598,16 +2699,19 @@ html.w-mod-js *[data-ix="scale"] {
     float: right;
   }
   .logo {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    margin: 21px 0px 7px;
+    position: relative;
+    left: 3px;
+    top: 28px;
+    display: block;
+    margin: 0px;
     padding-left: 0px;
     -webkit-box-pack: center;
     -webkit-justify-content: center;
     -ms-flex-pack: center;
     justify-content: center;
+  }
+  .logo.t.l.p {
+    top: 30px;
   }
   .hero-section {
     height: 150px;
@@ -2658,7 +2762,7 @@ html.w-mod-js *[data-ix="scale"] {
     top: -47px;
     width: 100%;
     margin-top: 0px;
-    margin-bottom: 68px;
+    margin-bottom: 0px;
   }
   .logos-section {
     padding-top: 0px;
@@ -2788,7 +2892,7 @@ html.w-mod-js *[data-ix="scale"] {
     flex: 0 0 auto;
   }
   .image.homelogo2 {
-    width: 80px;
+    width: 65px;
     margin-top: 0px;
     margin-left: 4px;
     padding-bottom: 0px;
@@ -2800,7 +2904,7 @@ html.w-mod-js *[data-ix="scale"] {
     font-size: 15px;
   }
   .div-block {
-    margin-top: 0px;
+    margin-top: 7px;
     margin-left: 0px;
     padding-right: 0px;
     padding-left: 0px;
@@ -2861,7 +2965,7 @@ html.w-mod-js *[data-ix="scale"] {
     position: static;
     width: 100%;
     height: 35vh;
-    margin-top: 24px;
+    margin-top: 0px;
     margin-bottom: 0px;
     margin-left: 0px;
     padding-bottom: 0px;
@@ -2870,24 +2974,31 @@ html.w-mod-js *[data-ix="scale"] {
   }
   .headingheader {
     position: relative;
-    left: 179px;
-    top: -17px;
-    right: 0px;
+    left: 0px;
+    top: 4px;
+    right: -1px;
     z-index: 0;
     display: block;
-    width: 100%;
+    width: 170px;
     margin-top: 0px;
     margin-left: 0px;
-    float: right;
+    float: none;
     font-size: 10px;
     line-height: 15px;
   }
   .div-block-4 {
-    left: -179px;
-    top: 58px;
+    position: relative;
+    left: 0px;
+    top: -61px;
+    right: -5px;
     display: block;
     width: 100%;
+    height: 40px;
     margin-top: 0px;
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 auto;
+    -ms-flex: 0 auto;
+    flex: 0 auto;
   }
   .containerslider {
     margin-top: 0px;
@@ -2909,13 +3020,10 @@ html.w-mod-js *[data-ix="scale"] {
     top: -87px;
     right: 0px;
     display: block;
-    width: 80px;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    margin-left: 0px;
+    margin: 0px 2px 0px 0px;
     padding-top: 0px;
     padding-bottom: 0px;
-    float: right;
+    float: none;
     font-size: 14px;
     line-height: 25px;
     letter-spacing: 0px;
@@ -2930,7 +3038,7 @@ html.w-mod-js *[data-ix="scale"] {
   .icon-4 {
     position: relative;
     top: 7px;
-    margin-top: 24px;
+    margin-top: 0px;
   }
   .text-field-2 {
     width: 100%;
@@ -2941,6 +3049,7 @@ html.w-mod-js *[data-ix="scale"] {
   }
   .section-4 {
     margin-top: 0px;
+    margin-bottom: 30px;
   }
   .section-6 {
     -webkit-box-align: stretch;
@@ -2951,17 +3060,19 @@ html.w-mod-js *[data-ix="scale"] {
   .aboutusheading {
     position: static;
     display: block;
-    width: 95%;
-    margin-top: 8px;
+    width: 100%;
+    margin-top: 0px;
     padding-top: 0px;
     padding-bottom: 0px;
-    box-shadow: 0 0 35px -8px #585858;
+    padding-left: 0px;
+    box-shadow: none;
     font-size: 16px;
     text-align: center;
   }
   .aboutusheading.phoneheading {
     display: block;
     margin-top: 24px;
+    box-shadow: 0 0 11px 1px rgba(88, 88, 88, .31);
   }
   .div-block-8 {
     padding-bottom: 0px;
@@ -2989,6 +3100,10 @@ html.w-mod-js *[data-ix="scale"] {
     flex: 0 0 auto;
     box-shadow: 0 0 12px 1px #5a5959;
   }
+  .div-block-9.aboutus {
+    height: auto;
+    box-shadow: none;
+  }
   .div-block-10 {
     margin-top: 8px;
   }
@@ -2999,9 +3114,9 @@ html.w-mod-js *[data-ix="scale"] {
     box-shadow: 0 0 7px 2px #868686;
   }
   .menu-button {
-    position: static;
-    top: 0px;
-    margin-top: 7px;
+    position: relative;
+    top: 27px;
+    margin-top: 0px;
     background-color: #f5f2ce;
   }
   .menu-button.w--open {
@@ -3009,6 +3124,7 @@ html.w-mod-js *[data-ix="scale"] {
   }
   .paragraph-5 {
     margin-bottom: 8px;
+    padding-top: 26px;
     padding-right: 0px;
     padding-left: 0px;
     font-size: 13px;
@@ -3027,7 +3143,7 @@ html.w-mod-js *[data-ix="scale"] {
     margin-top: 0px;
     margin-bottom: -1px;
     padding-right: 8px;
-    padding-bottom: 30px;
+    padding-bottom: 16px;
     padding-left: 8px;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -3146,6 +3262,7 @@ html.w-mod-js *[data-ix="scale"] {
   .div-block-22 {
     height: 800px;
     margin-top: 25px;
+    margin-bottom: 15px;
   }
   .paragraph-8 {
     padding-top: 0px;
@@ -3159,8 +3276,9 @@ html.w-mod-js *[data-ix="scale"] {
     font-size: 16px;
   }
   .link-block-7 {
-    top: -84px;
-    right: -177px;
+    position: static;
+    top: 0px;
+    right: 0px;
     float: right;
   }
   .section-9 {
@@ -3169,6 +3287,16 @@ html.w-mod-js *[data-ix="scale"] {
     right: 0px;
     bottom: 0px;
     margin-top: 0px;
+  }
+  .div-block-28 {
+    position: relative;
+    left: -1px;
+    top: -10px;
+  }
+  .slide-5 {
+    background-image: url('../images/website-pictures-1.jpg');
+    background-position: 50% 50%;
+    background-size: contain;
   }
 }
 
